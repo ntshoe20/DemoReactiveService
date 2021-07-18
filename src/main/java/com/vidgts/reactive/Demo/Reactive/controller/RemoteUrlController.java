@@ -1,31 +1,27 @@
 package com.vidgts.reactive.Demo.Reactive.controller;
 
+import com.vidgts.reactive.Demo.Reactive.model.OpenApiData;
+import com.vidgts.reactive.Demo.Reactive.service.RemoteService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+import reactor.core.publisher.Flux;
 
 @RestController
 @Slf4j
 public class RemoteUrlController {
 
-    RestTemplate restTemplate;
+    @Autowired
+    public RemoteService service;
 
-    public RemoteUrlController(RestTemplate restTemplate){
-        this.restTemplate = restTemplate;
+    public RemoteUrlController(RemoteService service){
+        this.service = service;
     }
 
-    //post method to check if twitter is online or not
-   /* @GetMapping("/twitter")
-    public ResponseEntity getTwitter(){
-        String endpoint = "https://twiiter.com";
-
-        String status = restTemplate.getForObject(endpoint,String.class);
-        HttpStatus response = status
-
-        return ResponseEntity(HttpStatus.CREATED,response);
-    }*/
+    @GetMapping("/openapidata")
+    public Flux<OpenApiData> retrieveAllData(){
+        return service.getApiData();
+    }
 
 }
