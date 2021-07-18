@@ -11,4 +11,6 @@ public class WebClientService {
 
     WebClient client = WebClient.create("https://localhost:999");
 
+    public Mono<Object> get(String endpoint,)
+
 }
