@@ -1,3 +1,9 @@
+/Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/error/APIError.java
 /Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/service/WebClientService.java
 /Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/DemoReactiveServicesApplication.java
 /Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/controller/healthController.java
+/Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/model/APIResponse.java
+/Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/model/Entries.java
+/Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/model/OpenApiData.java
+/Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/controller/RemoteUrlController.java
+/Users/itu/IdeaProjects/DemoReactiveService/src/main/java/com/vidgts/reactive/Demo/Reactive/service/RemoteService.java

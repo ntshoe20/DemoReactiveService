@@ -1,3 +1,11 @@
+com/vidgts/reactive/Demo/Reactive/model/Entries$EntriesBuilder.class
+com/vidgts/reactive/Demo/Reactive/model/APIResponse.class
+com/vidgts/reactive/Demo/Reactive/error/APIError$APIErrorBuilder.class
+com/vidgts/reactive/Demo/Reactive/controller/RemoteUrlController.class
+com/vidgts/reactive/Demo/Reactive/model/Entries.class
 com/vidgts/reactive/Demo/Reactive/service/WebClientService.class
+com/vidgts/reactive/Demo/Reactive/error/APIError.class
 com/vidgts/reactive/Demo/Reactive/DemoReactiveServicesApplication.class
 com/vidgts/reactive/Demo/Reactive/controller/healthController.class
+com/vidgts/reactive/Demo/Reactive/model/OpenApiData.class
+com/vidgts/reactive/Demo/Reactive/service/RemoteService.class
